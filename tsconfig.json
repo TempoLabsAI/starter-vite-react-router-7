@@ -5,8 +5,8 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "rootDirs": [".", "./.react-router/types"],
     "noEmitOnError": false,
-
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
@@ -16,10 +16,10 @@
 
     "strict": false,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./app/*"]
     }
   },
-  "include": ["src"],
-  "exclude": ["src/tempobook"],
+  "include": ["app"],
+  "exclude": ["app/tempobook"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

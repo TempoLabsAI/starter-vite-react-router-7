@@ -1,5 +1,4 @@
-import Home from "./../../../components/home.tsx";
-import React from "react";
+import Home from "@/components/home";
 
 const Storyboard1 = () => {
   return (
