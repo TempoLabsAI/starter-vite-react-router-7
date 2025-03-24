@@ -16,10 +16,10 @@
 
     "strict": false,
     "paths": {
-      "@/*": ["./app/*"]
+      "@/*": ["./src/*"]
     }
   },
-  "include": ["app"],
-  "exclude": ["app/tempobook"],
+  "include": ["src"],
+  "exclude": ["src/tempobook"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
